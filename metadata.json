@@ -1,0 +1,6 @@
+{
+  "name": "Baker Hossain – Digital CV",
+  "description": "Professional Personal CV Android App and Digital Resume for মোঃ বাকের হোসেন, Business Development & NGO Professional with PDF generation, timeline view, and offline-first storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

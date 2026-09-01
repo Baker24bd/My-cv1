@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 16px);
+  }
+}
+
+/* Print styling for direct browser printing */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  #android-top-bar,
+  #android-bottom-nav,
+  #topbar-dropdown-menu,
+  #app-toast-notification,
+  .no-print,
+  button {
+    display: none !important;
+  }
+
+  #cv-printable-sheet {
+    box-shadow: none !important;
+    border: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
